@@ -22,6 +22,7 @@ class _BitirState extends State<Bitir> {
             Text(data[1].toString()),
             Text(data[2].toString()),
             Text(data[3].toString()),
+            Text("Github değişiklik kontrolü için eklendi"),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/');
